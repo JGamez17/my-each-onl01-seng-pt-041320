@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(words)
+  
+  count = 0 
+  while count < words.size
+  yield(words{count1})
 end
